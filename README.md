@@ -31,5 +31,17 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
 1) [Official (Slow):](https://www.microsoft.com/en-us/software-download/windows10) Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
 2) [Official (Faster?):](https://www.microsoft.com/en-us/software-download/windows10) Now instead of using the above tool we will download an ISO directly from the site, just follow a few steps to start with
 
-    a) use one of the following key combinations
+    a) Depending on your browser, use the following key combination to open the developer tools, in my case (Chrome), I have to use the combination `Ctrl + Shift + I`
+    
+    b) Now `Ctrl + Shift + M` to activate the device toolbar, so our browser will make the page think that we are on a phone, finally press `F5` to refresh the page. If this doesn't work for your browser I recommend searching for `set user agent in <<your browser>>`
+    
+    c) After the page refreshes you will see a type of form you have to choose simple information.
+    
+    1) Multi-Edition ISO
+    
+    2) Your preferred language
+    
+    3) Your CPU architecture: An easy way to know what is the architecture of your PC; open your CMD and type `wmic OS get OSarchitecture`, this will show you your architecture.
+
+    
 ⚠ ***Personally I think this is a bad idea because in Windows 10 the newer the version the heavier the ISO, the longer it takes to install, MUCH SLOWER. Unless you want to be sure to use a more recent version and therefore more secure.***

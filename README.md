@@ -28,8 +28,8 @@ I will assume you are on a fresh installation of windows, it is the most recomme
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
-1) [Official (Slow):](https://www.microsoft.com/en-us/software-download/windows10) Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
-2) [Official (Faster?):](https://www.microsoft.com/en-us/software-download/windows10) Now instead of using the above tool we will download an ISO directly from the site, just follow a few steps to start with
+1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10) </a>: Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
+2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10): Now instead of using the above tool we will download an ISO directly from the site, just follow a few steps to start with
 
     a) Depending on your browser, use the following key combination to open the developer tools, in my case (Chrome), I have to use the combination `Ctrl + Shift + I`
     
@@ -43,5 +43,9 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
     
     3) Your CPU architecture: An easy way to know what is the architecture of your PC; open your CMD and type `wmic OS get OSarchitecture`, this will show you your architecture.
 
+3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat): Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
+
+4) [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool): This program not only allows you to download Win10 ISOs but also lets you download Office directly. But to be honest I have never used it, I just know it exists.
+
     
-⚠ ***Personally I think this is a bad idea because in Windows 10 the newer the version the heavier the ISO, the longer it takes to install, MUCH SLOWER. Unless you want to be sure to use a more recent version and therefore more secure.***
+⚠ ***Personally I think it is a bad idea to download the latest version of the system because in Windows 10 the newer the version the heavier the ISO is, the longer it takes to install, IT IS MUCH SLOWER. Unless you want to make sure you use a newer and therefore more secure version. Otherwise, and you really want maximum performance, I would recommend version 1903.***

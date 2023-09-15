@@ -1,4 +1,4 @@
-# Windows Optimization Guide 
+# Personal Windows Optimization Guide 
 
 ***Working on a HTML version***
 
@@ -18,30 +18,29 @@ I will also give credit to each person and links to the repositories.
 
 ---
 
-# Contents
+## Contents
 
 1) [Download Windows 10](#getWin10)
-    1) [Official (Slow)](#getWin10M1)
-    2) [Official (Faster?)](#getWin10M2)
-    3) [Universal Media Creation Tool](#getWin10M3)
-    4) [Windows Downloader](#getWin10M4)
-2) [Booting the system](#bootWin)
+2) [Create a bootable pen drive](#bootUSB)
+3) [Booting the system](#bootWin)
+4) [Scripts and post-installation programs](#postInstall)
+3) [Basic programs](#basicPrograms)
 
-## Before you start
+### Before you start
 
 I will assume you are on a fresh installation of windows, it is the most recommended if you want a functional and practically garbage free system, I would personally recommend to do it at least once a year.
 
-<h3 id="getWin10">Obtain Windows 10 ISOs</h3>
+<h2 id="getWin10">Obtain Windows 10 ISOs</h2>
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
-1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10) </a>: Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
+1) [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10): Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
 
-2) <a id="getWin10M2"> [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10) </a>: Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
+2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10): Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
 
     a) Depending on your browser, use the following key combination to open the developer tools, in my case (Chrome), I have to use the combination `Ctrl + Shift + I`
     
-    b) Now `Ctrl + Shift + M` to activate the device toolbar or and click on the second icon in the upper left corner (it looks like a laptop with a phone), so our browser will make the page think that we are on a phone, finally press `F5` to refresh the page. If this doesn't work for your browser I recommend searching for `set user agent in <<your browser>>`
+    b) Now use `Ctrl + Shift + M` to activate the device toolbar or click on the second icon in the upper left corner (it looks like a laptop with a phone), so our browser will make the page think that we are on a phone, finally press `F5` to refresh the page. If this doesn't work for your browser I recommend searching for `set user agent in <<your browser>>`
     
     c) After the page refreshes you will see a type of form you have to choose simple information.
     
@@ -53,9 +52,9 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
     
     4) Finally this will download the ISO with the selected preferences, when the process is finished you can proceed [Booting the system] to install the system.
 
-3) <a id="getWin10M3"> [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat) </a>: Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
+3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat): Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
 
-4) <a id="getWin10M4"> [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool) </a>: This program not only allows you to download Win10 ISOs but also lets you download Office directly. But to be honest I have never used it, I just know it exists.
+4) [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool): This program not only allows you to download Win10 ISOs but also lets you download Office directly. But to be honest I have never used it, I just know it exists.
 
 ---
 ⚠ ***MORE RECENT MORE SLOWER***
@@ -67,3 +66,15 @@ Although well, I assume that if you see this repository is because you want a li
 This [Wikipedia link](https://en.wikipedia.org/wiki/Windows_10_version_history) shows all Windows 10 versions highlighting if they are still supported or not.
 
 ---
+
+<h2 id="bootUSB">Create a bootable pen drive</h2>
+
+What is the best program to create a bootable USB? That question may depend on your tastes, I guess, so I made a (really) simple table to give you an idea of which one is the best.
+
+| Tool                                           | Description                                                      | Easy to use?                                           | Open Source | Multi ISO | Windows | MacOS | Linux |
+|------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------|-------------|-----------|---------|-------|-------|
+| [Ventoy](https://www.ventoy.net/en/index.html) | An open-source tool to create bootable USB drives for ISO files. | 9/10 [Guide](https://www.ventoy.net/en/doc_start.html) | ✅           | ✅         | ✅       |       | ✅     |
+| [Balena Etcher](https://etcher.balena.io/)     | A tool to create bootable USB drives from downloaded ISO files.  | 10/10                                                  | ✅           |           | ✅       | ✅     | ✅     |
+| [Rufus](https://rufus.ie/en/)                  | A tool to create bootable USB drives from ISO files.             | 7/10                                                   | ✅           |           | ✅       |       |       |
+
+Personally I recommend using Ventoy because it only requires copying the ISO file to the USB, it's that simple.

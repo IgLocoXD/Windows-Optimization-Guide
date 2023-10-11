@@ -2,6 +2,8 @@
 
 ***Working on a HTML version***
 
+### This guide is still in development
+
 Windows despite being the operating system with the largest market share in the world does not make it the most "light" for everyone, it is understandable, since it is focused on so many end users with many different needs and a lot of hardware, **it's hard for everyone to have a good experience**.
 
 I created this small repository with some extra files (which I will explain what each of them are for) to make a simple guide to optimize windows to the maximum.

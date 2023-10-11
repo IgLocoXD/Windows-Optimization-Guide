@@ -20,6 +20,21 @@ I will also give credit to each person and links to the repositories.
 
 ---
 
+## Icon guide
+
+| Icon | Description                   |
+|------|-------------------------------|
+| ⛔    | Not added to the document yet |
+| ✅    | I have used it                |
+| 💥   | May be unsafe / Hard to use / No recent updates / May have adware |
+| ⭐    | Personally my favorite        |
+| 🟢    | Open source                   |
+| ⚫    | Proprietary                   |
+| 🆓   | Free                            |
+| ⭕    | Freemium                      |
+| 🛑    | Paid                          |
+| 🐧    | Also on linux                 |
+
 ## Contents
 
 1) [Download Windows 10](#download-windows-10)
@@ -42,9 +57,9 @@ I will assume you are on a fresh installation of windows, it is the most recomme
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
-1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10): Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).</a>
+1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10)⚫🆓✅: Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).</a>
 
-2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10): Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
+2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10)⚫🆓✅: Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
 
     a) Depending on your browser, use the following key combination to open the developer tools, in my case (Chrome), I have to use the combination `Ctrl + Shift + I`
     
@@ -60,9 +75,9 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
     
     4) Finally this will download the ISO with the selected preferences, when the process is finished you can proceed [Booting the system] to install the system.
 
-3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat): Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
+3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat)🟢✅⭐: Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
 
-4) [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool): This program not only allows you to download Win10 ISOs but also lets you download Office directly. But to be honest I have never used it, I just know it exists.
+4) [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool)⚫🆓: This program not only allows you to download Win10 ISOs but also lets you download Office directly.
 
 ---
 ⚠ ***MORE RECENT MORE SLOWER***
@@ -81,9 +96,9 @@ What is the best program to create a bootable USB? That question may depend on y
 
 | Tool                                           | Description                                                      | Easy to use?                                           | Open Source | Multi ISO | Windows | MacOS | Linux |
 |------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------|-------------|-----------|---------|-------|-------|
-| [Ventoy](https://www.ventoy.net/en/index.html) | An open-source tool to create bootable USB drives for ISO files. | 9/10 [Guide](https://www.ventoy.net/en/doc_start.html) | ✅           | ✅         | ✅       |       | ✅     |
-| [Balena Etcher](https://etcher.balena.io/)     | A tool to create bootable USB drives from downloaded ISO files.  | 10/10                                                  | ✅           |           | ✅       | ✅     | ✅     |
-| [Rufus](https://rufus.ie/en/)                  | A tool to create bootable USB drives from ISO files.             | 7/10                                                   | ✅           |           | ✅       |       |       |
+| [Ventoy](https://www.ventoy.net/en/index.html)🟢✅⭐ | An open-source tool to create bootable USB drives for ISO files. | 9/10 [Guide](https://www.ventoy.net/en/doc_start.html) | 🆗           | 🆗         | 🆗       |       | 🆗     |
+| [Balena Etcher](https://etcher.balena.io/)🟢✅     | A tool to create bootable USB drives from downloaded ISO files.  | 10/10                                                  | 🆗           |           | 🆗       | 🆗     | 🆗     |
+| [Rufus](https://rufus.ie/en/)🟢✅                  | A tool to create bootable USB drives from ISO files.             | 7/10                                                   | 🆗           |           | 🆗       |       |       |
 
 Personally I recommend using Ventoy because it only requires copying the ISO file to the USB, it's that simple.
 
@@ -115,33 +130,33 @@ I made a table with useful information about each one in this repository.
 
 | Name                                                                                                 | Description                                                                                                                                                     | Type       |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| [Winutil](https://github.com/ChrisTitusTech/winutil/) by ChrisTitusTech                              | Script for installing software, system improvements and various configurations.                                                                                 | PS Script  |
-| [WinWindows10Debloater](https://github.com/Sycnex/Windows10Debloater) by Sycnex                      | Script to debloat Windows 10, remove unnecessary applications, telemetry, Cortana, scheduled tasks, and more.                                                   | PS Script  |
-| [SophiApp](https://github.com/Sophia-Community/SophiApp) by Sophia-Community                         | The largest PowerShell module on GitHub for Windows 10 & Windows 11 for fine-tuning and automating the routine tasks.                                           | PS Script  |
-| [Optimizer](https://github.com/hellzerg/optimizer) by hellzerg                                       | An advanced configuration utility designed to enhance your privacy and security on Windows.                                                                     | Executable |
-| [DefenderBlock](https://www.sordum.org/files/downloads.php?st-defender-control) by Sordum            | Defender Control is a small Portable freeware which will allow you to disable Microsoft Defender in Windows 10 completely.                                      | Executable |
-| [Eso](https://www.sordum.org/downloads/?easy-service-optimizer) by Sordum                            | All Windows versions load many services at startup. by disabling unnecessary services, performance can be can be improved.                                      | Executable |
-| [WUB](https://www.sordum.org/downloads/?st-windows-update-blocker) by Sordum                         | Windows Update Blocker is a freeware that helps you to completely disable or enable Automatic Updates on your Windows system , with just a click of the button. | Executable |
-| [Reduce memory](https://www.sordum.org/downloads/?st-reduce-memory)                                  | It will free up your RAM memory a little in Windows.                                                                                                            | Executable |
-| [MajorGeeks](https://www.majorgeeks.com/files/categories/majorgeeks_registry_batch_file_tweaks.html) | Contains over 200 files, less than 3MB total, including Registry, PowerShell Files to enable tweaks in Windows.                                                 | Zip        |
+| [Winutil](https://github.com/ChrisTitusTech/winutil/) by ChrisTitusTech 🟢✅⭐                              | Script for installing software, system improvements and various configurations.                                                                                 | PS Script  |
+| [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater) by Sycnex 🟢✅⭐                      | Script to debloat Windows 10, remove unnecessary applications, telemetry, Cortana, scheduled tasks, and more.                                                   | PS Script  |
+| [SophiApp](https://github.com/Sophia-Community/SophiApp) by Sophia-Community 🟢✅⭐                        | The largest PowerShell module on GitHub for Windows 10 & Windows 11 for fine-tuning and automating the routine tasks.                                           | PS Script  |
+| [Optimizer](https://github.com/hellzerg/optimizer) by hellzerg 🟢💥✅                                      | An advanced configuration utility designed to enhance your privacy and security on Windows.                                                                     | Executable |
+| [DefenderBlock](https://www.sordum.org/files/downloads.php?st-defender-control) by Sordum ⚫🆓✅         | Defender Control is a small Portable freeware which will allow you to disable Microsoft Defender in Windows 10 completely.                                      | Executable |
+| [Eso](https://www.sordum.org/downloads/?easy-service-optimizer) by Sordum ⚫🆓✅⭐                          | All Windows versions load many services at startup. by disabling unnecessary services, performance can be can be improved.                                      | Executable |
+| [WUB](https://www.sordum.org/downloads/?st-windows-update-blocker) by Sordum ⚫🆓✅                       | Windows Update Blocker is a freeware that helps you to completely disable or enable Automatic Updates on your Windows system , with just a click of the button. | Executable |
+| [Reduce memory](https://www.sordum.org/downloads/?st-reduce-memory) by Sordum ⚫🆓✅                                | It will free up your RAM memory a little in Windows.                                                                                                            | Executable |
+| [MajorGeeks](https://www.majorgeeks.com/files/categories/majorgeeks_registry_batch_file_tweaks.html) 🟢✅ | Contains over 200 files, less than 3MB total, including Registry, PowerShell Files to enable tweaks in Windows.                                                 | Zip        |
 
 ### Useful programs
 
 | Name                                                   | Description                                                                                                                                                 | Type       |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| [Microsoft Activation Scripts](https://massgrave.dev/) | A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections. | Guide      |
-| [VCRedist AIO](https://github.com/abbodi1406/vcredist) | AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.                                               | Executable |
+| [Microsoft Activation Scripts](https://massgrave.dev/) by massgravel 🟢✅⭐  | A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections. | Guide      |
+| [VCRedist AIO](https://github.com/abbodi1406/vcredist) by abbodi1406 🟢✅⭐  | AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.                                               | Executable |
 
 ## Basic programs
 Small compilation of all the possible software you might need for daily use
 
 | Name                 | Best choice/Most popular | Popular alternative   | Extra alternative       |
 |----------------------|--------------------------|-----------------------|-------------------------|
-| Browser              | Google Chrome            | Firefox               | Edge (Chromium)         |
-| Office Suite         | MS Office                | LibreOffice           | WPS Office              |
-| PDF reader           | Adobe Acrobat Reader     | SomatraPDF            | Foxit Reader            |
-| Media player         | VLC                      | MPC-HC                | MPV                     |
-| Compression software | 7-Zip                    | PeaZip                | WinRAR                  |
+| Browser              | Google Chrome ⚫🆓✅🐧⭐           | Firefox 🟢✅🐧           | Edge (Chromium) ⚫🆓✅🐧        |
+| Office Suite         | MS Office ⚫🛑✅               | LibreOffice 🟢🐧          | WPS Office ⚫⭕🐧⭐             |
+| PDF reader           | Adobe Acrobat Reader ⚫⭕     | SomatraPDF 🟢✅⭐           | Foxit Reader ⚫🆓           |
+| Media player         | VLC 🟢✅🐧⭐                     | MPC-HC 🟢✅                | MPV 🟢💥🐧                    |
+| Compression software | 7-Zip 🟢✅🐧⭐                   | PeaZip 🟢✅🐧               | WinRAR ⚫🛑🐧                 |
 | Chat client          | Telegram                 | Discord               | Skype                   |
 | Password manager     | Bitwarden                | KeePass               | LastPass                |
 | Cloud                | Google Drive             | Dropbox               | Nextcloud               |

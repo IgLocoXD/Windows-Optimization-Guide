@@ -129,3 +129,27 @@ I made a table with useful information about each one in this repository.
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | [Microsoft Activation Scripts](https://massgrave.dev/) | A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections. | Guide      |
 | [VCRedist AIO](https://github.com/abbodi1406/vcredist) | AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.                                               | Executable |
+
+<h2 id="basicPrograms">Basic programs</h2>
+Small compilation of all the possible software you might need for daily use
+
+| Name                 | Best choice/Most popular | Popular alternative | Extra alternative |
+|----------------------|--------------------------|---------------------|-------------------|
+| Browser              | Google Chrome            | Firefox             | Edge (Chromium)   |
+| Office Suite         | MS Office                | LibreOffice         | WPS Office        |
+| PDF reader           | Adobe Acrobat Reader     | SomatraPDF          | Foxit Reader      |
+| Media player         | VLC                      | MPC-HC              | MPV               |
+| Compression software | 7-Zip                    | PeaZip              | WinRAR            |
+| Chat client          | Telegram                 | Discord             | Skype             |
+| Password manager     | Bitwarden                | KeePass             | LastPass          |
+| Cloud                | Google Drive             | Dropbox             | Nextcloud         |
+| Notes                | Obsidian                 | Notion              | Microsoft OneNote |
+| Audio edition        | Audacity                 | Tenacity            | FL Studio         |
+| Image edition        | Photoshop                | GIMP                | Paint.NET         |
+| Video edition        | Premiere Pro             | Kdenlive            | Shotcut           |
+| File explorer        | Directory Opus           | Total Commander     | Everything        |
+| Code editor          | Visual Studio Code       | VSCodium            | Notepad++         |
+| Download Manager     |                          |                     |                   |
+| Screen recording     |                          |                     |                   |
+|                      |                          |                     |                   |
+|                      |                          |                     |                   |

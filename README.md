@@ -24,13 +24,18 @@ I will also give credit to each person and links to the repositories.
 2) [Create a bootable pen drive](#bootUSB)
 3) [Booting the system](#bootWin)
 4) [Scripts and post-installation programs](#postInstall)
-3) [Basic programs](#basicPrograms)
+5) [Basic programs](#basicPrograms)
+
+##### Extra
+
+1) [Using a windows mod](#winMod)
+2) [Time to use linux?](#linTim)
 
 ### Before you start
 
 I will assume you are on a fresh installation of windows, it is the most recommended if you want a functional and practically garbage free system, I would personally recommend to do it at least once a year.
 
-<h2 id="getWin10">Obtain Windows 10 ISOs</h2>
+<h2 id="getWin10">Download Windows 10</h2>
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
@@ -78,3 +83,21 @@ What is the best program to create a bootable USB? That question may depend on y
 | [Rufus](https://rufus.ie/en/)                  | A tool to create bootable USB drives from ISO files.             | 7/10                                                   | ✅           |           | ✅       |       |       |
 
 Personally I recommend using Ventoy because it only requires copying the ISO file to the USB, it's that simple.
+
+Also, in the table above there is an official user's guide.
+
+<h2 id="bootWin">Booting the system</h2>
+
+In this part I can't do an exact explanation of how to enter the BIOS of your PC, the most common is to use `F2`, `F10`, `F12`, `Del`, or even `Esc`. You can also search for `how to access the BIOS in <<your PC model>>`.
+
+When you access it, find the section called `boot order`, modify the order so that the USB is in the first position. I would like to be more specific, but I can't.
+
+Ah, yes... remember to save your changes.
+
+What happens now will depend on whether you used [Ventoy](https://www.ventoy.net/en/index.html), [Balena Etcher](https://etcher.balena.io/) or [Rufus](https://rufus.ie/en/).
+
+Finally, when you see this screen
+
+*ins img*
+
+go by what the interface says, it should be simple enough.

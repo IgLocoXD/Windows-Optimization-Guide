@@ -22,27 +22,27 @@ I will also give credit to each person and links to the repositories.
 
 ## Contents
 
-1) [Download Windows 10](#getWin10)
-2) [Create a bootable pen drive](#bootUSB)
-3) [Booting the system](#bootWin)
-4) [Scripts and post-installation programs](#postInstall)
-5) [Basic programs](#basicPrograms)
-6) [Small extra details](#extraDetail)
+1) [Download Windows 10](#download-windows-10)
+2) [Create a bootable pen drive](#create-a-bootable-pen-drive)
+3) [Booting the system](#booting-the-system)
+4) [Scripts and post-installation programs](#scripts-and-post-installation-programs)
+5) [Basic programs](#basicPrograms) ⛔
+6) [Small extra details](#extraDetail) ⛔
 
 ##### Extra
 
-1) [Using a windows mod](#winMods)
-2) [Time to use linux?](#linuxTime)
+1) [Using a windows mod](#winMods) ⛔
+2) [Time to use linux?](#linuxTime) ⛔
 
 ### Before you start
 
 I will assume you are on a fresh installation of windows, it is the most recommended if you want a functional and practically garbage free system, I would personally recommend to do it at least once a year.
 
-<h2 id="getWin10">Download Windows 10</h2>
+## Download Windows 10
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
-1) [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10): Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).
+1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10): Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).</a>
 
 2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10): Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
 
@@ -67,7 +67,7 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
 ---
 ⚠ ***MORE RECENT MORE SLOWER***
 
-Personally I think it is a bad idea to download the latest version of the system because in Windows 10 the newer the version the heavier the ISO is, the longer it takes to install, SO MUCH SLOWER IN GENERAL. Unless you want to make sure you use a newer and therefore more secure version. Otherwise, and you really want maximum performance, I would recommend version 1903.
+Personally I think it is a bad idea to download the latest version of the system because in Windows 10 the newer the version the heavier the ISO is, the longer it takes to install, SO MUCH SLOWER IN GENERAL. Unless you want to make sure you use a newer and therefore more secure version. Otherwise, and you really want maximum performance, **I would recommend version 1903**.
 
 Although well, I assume that if you see this repository is because you want a lightweight Windows and because probably your PC is not so powerful for the latest versions.
 
@@ -75,7 +75,7 @@ This [Wikipedia link](https://en.wikipedia.org/wiki/Windows_10_version_history) 
 
 ---
 
-<h2 id="bootUSB">Create a bootable pen drive</h2>
+## Create a bootable pen drive
 
 What is the best program to create a bootable USB? That question may depend on your tastes, I guess, so I made a (really) simple table to give you an idea of which one is the best.
 
@@ -89,7 +89,7 @@ Personally I recommend using Ventoy because it only requires copying the ISO fil
 
 Also, in the table above there is an official user's guide.
 
-<h2 id="bootWin">Booting the system</h2>
+<h2 id="https://github.com/NweoWasTaken/Windows-Optimization-Guide/tree/main#booting-the-system">Booting the system</h2>
 
 In this part I can't do an exact explanation of how to enter the BIOS of your PC, the most common is to use `F2`, `F10`, `F12`, `Del`, or even `Esc`. You can also search for `how to access the BIOS in <<your PC model>>`.
 
@@ -105,7 +105,7 @@ Finally, when you see this screen
 
 go by what the interface says, it should be simple enough.
 
-<h2 id="postInstall">Scripts and post-installation programs</h2>
+## Scripts and post-installation programs
 
 Once you are finally done with the system installation and you can see your new desktop, let's go to the scripts and programs!
 
@@ -132,7 +132,7 @@ I made a table with useful information about each one in this repository.
 | [Microsoft Activation Scripts](https://massgrave.dev/) | A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections. | Guide      |
 | [VCRedist AIO](https://github.com/abbodi1406/vcredist) | AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.                                               | Executable |
 
-<h2 id="basicPrograms">Basic programs</h2>
+## Basic programs
 Small compilation of all the possible software you might need for daily use
 
 | Name                 | Best choice/Most popular | Popular alternative   | Extra alternative       |

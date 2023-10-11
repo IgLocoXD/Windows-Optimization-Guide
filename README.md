@@ -25,6 +25,7 @@ I will also give credit to each person and links to the repositories.
 3) [Booting the system](#bootWin)
 4) [Scripts and post-installation programs](#postInstall)
 5) [Basic programs](#basicPrograms)
+6) [Small extra details](#extraDetail)
 
 ##### Extra
 
@@ -107,3 +108,19 @@ go by what the interface says, it should be simple enough.
 Once you are finally done with the system installation and you can see your new desktop, let's go to the scripts and programs!
 
 I made a table with useful information about each one in this repository.
+
+| Name                                                                                                 | Description                                                                                                                                                     | Type       | Purpose              |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|----------------------|
+| [Winutil](https://github.com/ChrisTitusTech/winutil/) by ChrisTitusTech                              | Script for installing software, system improvements and various configurations.                                                                                 | PS Script  | Overall optimization |
+| [WinWindows10Debloater](https://github.com/Sycnex/Windows10Debloater) by Sycnex                      | Script to debloat Windows 10, remove unnecessary applications, telemetry, Cortana, scheduled tasks, and more.                                                   | PS Script  | Overall optimization |
+| [SophiApp](https://github.com/Sophia-Community/SophiApp) by Sophia-Community                         | The largest PowerShell module on GitHub for Windows 10 & Windows 11 for fine-tuning and automating the routine tasks.                                           | PS Script  | Overall optimization |
+| [Optimizer](https://github.com/hellzerg/optimizer) by hellzerg                                       | An advanced configuration utility designed to enhance your privacy and security on Windows.                                                                     | Executable | Overall optimization |
+| [DefenderBlock](https://www.sordum.org/files/downloads.php?st-defender-control) by Sordum            | Defender Control is a small Portable freeware which will allow you to disable Microsoft Defender in Windows 10 completely.                                      | Executable | Specific task        |
+| [Eso](https://www.sordum.org/downloads/?easy-service-optimizer) by Sordum                            | All Windows versions load many services at startup. by disabling unnecessary services, performance can be can be improved.                                      | Executable | Background tasks     |
+| [WUB](https://www.sordum.org/downloads/?st-windows-update-blocker) by Sordum                         | Windows Update Blocker is a freeware that helps you to completely disable or enable Automatic Updates on your Windows system , with just a click of the button. | Executable | Specific task        |
+| [Reduce memory](https://www.sordum.org/downloads/?st-reduce-memory)                                  | It will free up your RAM memory a little in Windows.                                                                                                            | Executable | RAM                  |
+| [MajorGeeks](https://www.majorgeeks.com/files/categories/majorgeeks_registry_batch_file_tweaks.html) | Contains over 200 files, less than 3MB total, including Registry, PowerShell Files to enable tweaks in Windows.                                                 | Zip        | Script bundle        |
+|                                                                                                      |                                                                                                                                                                 |            |                      |
+|                                                                                                      |                                                                                                                                                                 |            |                      |
+|                                                                                                      |                                                                                                                                                                 |            |                      |
+|                                                                                                      |                                                                                                                                                                 |            |                      |  

@@ -28,8 +28,8 @@ I will also give credit to each person and links to the repositories.
 
 ##### Extra
 
-1) [Using a windows mod](#winMod)
-2) [Time to use linux?](#linTim)
+1) [Using a windows mod](#winMods)
+2) [Time to use linux?](#linuxTime)
 
 ### Before you start
 
@@ -101,3 +101,9 @@ Finally, when you see this screen
 *ins img*
 
 go by what the interface says, it should be simple enough.
+
+<h2 id="postInstall">Scripts and post-installation programs</h2>
+
+Once you are finally done with the system installation and you can see your new desktop, let's go to the scripts and programs!
+
+I made a table with useful information about each one in this repository.

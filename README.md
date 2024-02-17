@@ -152,19 +152,29 @@ Small compilation of all the possible software you might need for daily use
 
 | Name                 | Best choice/Most popular | Popular alternative   | Extra alternative       |
 |----------------------|--------------------------|-----------------------|-------------------------|
-| Browser              | Google Chrome ⚫🆓✅🐧⭐           | Firefox 🟢✅🐧           | Edge (Chromium) ⚫🆓✅🐧        |
-| Office Suite         | MS Office ⚫🛑✅               | LibreOffice 🟢🐧          | WPS Office ⚫⭕🐧⭐             |
+| Browser              | Google Chrome ⚫🆓✅🐧⭐           | Firefox 🟢✅🐧*₁           | Edge (Chromium) ⚫🆓✅🐧        |
+| Office Suite         | MS Office ⚫🛑✅               | LibreOffice 🟢✅🐧          | WPS Office ⚫⭕🐧⭐             |
 | PDF reader           | Adobe Acrobat Reader ⚫⭕     | SomatraPDF 🟢✅⭐           | Foxit Reader ⚫🆓           |
-| Media player         | VLC 🟢✅🐧⭐                     | MPC-HC 🟢✅                | MPV 🟢💥🐧                    |
-| Compression software | 7-Zip 🟢✅🐧⭐                   | PeaZip 🟢✅🐧               | WinRAR ⚫🛑🐧                 |
-| Chat client          | Telegram                 | Discord               | Skype                   |
-| Password manager     | Bitwarden                | KeePass               | LastPass                |
-| Cloud                | Google Drive             | Dropbox               | Nextcloud               |
-| Notes                | Obsidian                 | Notion                | Microsoft OneNote       |
-| Audio edition        | Audacity                 | Tenacity              | FL Studio               |
-| Image edition        | Photoshop                | GIMP                  | Paint.NET               |
-| Video edition        | Premiere Pro             | Kdenlive              | Shotcut                 |
-| File explorer        | Directory Opus           | Total Commander       | Everything              |
-| Code editor          | Visual Studio Code       | VSCodium              | Notepad++               |
-| Download Manager     | JDownloader              | Free Download Manager | Xtreme Download Manager |
-| Screen recording     | OBS Studio               | ShareX                | Camtasia                |
+| Media player         | VLC 🟢✅🐧⭐                     | MPC-HC 🟢✅                | MPV 🟢💥🐧*₁                    |
+| Compression software | 7-Zip 🟢✅🐧*₁⭐                   |WinRAR ⚫🛑🐧*₁ *₂               | PeaZip 🟢✅🐧*₁               |
+| Chat client          | Telegram 🟢⭕✅🐧                 | Discord 🟢🆓✅🐧⭐               | Skype ⚫⭕✅💥🐧                   |
+| Password manager     | Bitwarden 🟢⭕✅🐧                | KeePass 🟢🆓✅🐧⭐               | LastPass ⚫✅💥🐧                |
+| Cloud                | Google Drive ⚫⭕✅🐧*₃⭐             | Dropbox ⚫⭕✅               | Nextcloud 🟢⭕✅🐧               |
+| Notes                | Obsidian ⚫⭕✅⭐                 | Notion ⚫⭕✅                | Microsoft OneNote ⚫🛑✅       |
+| Audio edition        | Audacity 🟢🆓✅🐧💥*₄⭐                 | Tenacity🟢🆓✅🐧              | FL Studio⚫🛑✅🐧*⁵⭐               |
+| Image edition        | Photoshop ⚫🛑✅⭐                | GIMP 🟢🆓✅🐧💥⭐                  | Paint.NET 🟢🆓✅               |
+| Video edition        | Premiere Pro ⚫🛑✅⭐             | Kdenlive 🟢🆓✅🐧💥⭐              | Shotcut 🟢🆓✅🐧💥                 |
+| File explorer        | Directory Opus ⚫⭕✅           | Total Commander ⚫⭕✅       | Everything ⚫🆓💥              |
+| Code editor          | Visual Studio Code ⚫🆓✅🐧       | VSCodium 🟢🆓✅🐧⭐              | Notepad++ 🟢🆓✅🐧⭐               |
+| Download Manager     | JDownloader2 🟢🆓✅🐧⭐              | Free Download Manager ⚫🆓✅🐧⭐ | Xtreme Download Manager ⚫🆓✅🐧 |
+| Screen recording     | OBS Studio 🟢🆓✅🐧⭐               | ShareX🟢🆓✅                | Action ⚫🛑✅                |
+
+*₁ All the most popular Linux distribuitions already have this software or their global alternative.
+
+*₂ WinRAR for Linux is Command Line only, and only works for decompress certain type of .RAR files. (Also, integrated in most popular Linux distributions)
+
+*₃ Only available in certain distributions or WM (Like GNOME)
+
+*₄ Telemetry added on recent update
+
+*₅ FL Studio has official support through Wine.
